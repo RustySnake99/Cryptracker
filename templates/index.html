@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Cryptolab</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/static/indexStyle.css" />
+</head>
+<body>
+    <h1>Cryptolab: Cryptocurrency Tracker</h1>
+    <label for="coin-input">Enter the name: </label><input type="text" id="coin-input" placeholder="Ex: Bitcoin" />
+    <button onClick="searchCrypto()">Search</button>
+
+    <div id="result"></div>
+    <canvas id="priceChart"></canvas>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
